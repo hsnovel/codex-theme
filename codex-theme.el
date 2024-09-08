@@ -3,7 +3,7 @@
 ;; Copyright 2024 Çağan Korkmaz
 
 ;; Author: Çağan Korkmaz <root@hsnovel.net>
-;; URL:
+;; URL: https://github.com/hsnovel/codex-theme
 ;; Version: 0.01
 
 ;; This file is free software; you can redistribute it and/or modify
@@ -26,7 +26,7 @@
 
 ;;; Code:
 
-(deftheme codex "codex theme")
+(deftheme codex "Codex theme.")
 
 (let
     ((codex-fg "#bdbdbd")
