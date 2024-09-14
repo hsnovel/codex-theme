@@ -90,13 +90,30 @@
                           ;; Rainbow Delimeters Mode
                           `(rainbow-delimiters-depth-1-face ((t (:foreground ,codex-fg))))
 
+                          `(ansi-color-black ((t (:foreground ,"#000000"
+                                                              :background ,"#eeeeee"))))
 
+                          `(ansi-color-red ((t (:foreground ,codex-compilation-g
+                                                            :background ,codex-compilation-g))))
+
+                          `(ansi-color-green ((t (:foreground "tan3"
+                                                              :background "tan3"))))
+                          `(ansi-color-yellow ((t (:foreground ,codex-type
+                                                               :background ,codex-type))))
+                          `(ansi-color-magenta ((t (:foreground ,codex-compilation-g
+                                                                :background ,codex-compilation-g))))
+                          `(ansi-color-cyan ((t (:foreground ,codex-compilation-warn
+                                                             :background ,codex-compilation-warn))))
+                          `(ansi-color-blue ((t (:foreground ,codex-fg
+                                                             :background ,codex-fg))))
+                          `(ansi-color-white ((t (:foreground ,codex-fg
+                                                              :background ,codex-fg))))
 
                           ;; Compilation
-                          `(compilation-info ((t (:foreground ,codex-compilation-g :inherit 'unspecified))))
-                          `(compilation-warning ((t (:foreground ,codex-compilation-warn :bold t :inherit 'unspecified))))
+                          `(compilation-info ((t (:foreground ,codex-compilation-g))))
+                          `(compilation-warning ((t (:foreground ,codex-compilation-warn :bold))))
                           `(compilation-error ((t (:foreground ,codex-compilation-r))))
-                          `(compilation-mode-line-fail ((t ,(list :foreground codex-compilation-r :weight 'bold :inherit 'unspecified))))
+                          `(compilation-mode-line-fail ((t ,(list :foreground codex-compilation-r :weight 'bold))))
                           `(compilation-mode-line-exit ((t ,(list :foreground codex-compilation-g
                                                                   :weight 'bold :inherit 'unspecified))))
 
