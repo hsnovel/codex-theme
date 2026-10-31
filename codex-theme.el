@@ -152,7 +152,7 @@
                           `(whitespace-indentation ((t (:background ,codex-bg-3 :foreground ,codex-fg-2))))
                           `(whitespace-space-after-tab ((t (:background ,codex-bg-3 :foreground ,codex-fg-2))))
                           `(whitespace-space-before-tab ((t (:background ,codex-bg-3 :foreground ,codex-fg-2))))))
-;; autoload
+;;;###autoload
 (and load-file-name
      (boundp 'custom-theme-load-path)
      (add-to-list 'custom-theme-load-path
